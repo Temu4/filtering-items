@@ -2,7 +2,7 @@ const ITEMS = [
   {
     id: 1,
     category: 'mac',
-    imgUrl: '../img/macbook-air-2.png',
+    imgUrl: 'items/macbook-air.png',
     name: 'MacBook Air',
     display: 13.3, // дюймы
     color: ['Gold', 'Silver', 'Space Grey'],
@@ -33,21 +33,14 @@ const ITEMS = [
     os: 'macOS',
     InTheBox: ['MacBook Air', '30W USB-C Power Adapter', 'USB-C Charge Cable (2 m)'],
     orderInfo: {
-      inStock: {
-        value: '435',
-        pict: {
-          succ: '../img/yes.png',
-          err: '../img/no.png'
-        }
-      },
-      reviews: 77, // процент положительных отзывов
-      amount: 310
+      inStock: 435, // кол-во едениц товара в наличии
+      reviews: 77 // процент положительных отзывов
     }
   },
   {
     id: 2,
     category: 'mac',
-    imgUrl: '../img/macbook-air-2.png',
+    imgUrl: 'items/macbook-air.png',
     name: 'MacBook Air',
     display: 13.3, // дюймы
     color: ['Gold', 'Silver', 'Space Grey'],
@@ -78,21 +71,14 @@ const ITEMS = [
     os: 'macOS',
     InTheBox: ['MacBook Air', '30W USB-C Power Adapter', 'USB-C Charge Cable (2 m)'],
     orderInfo: {
-      inStock: {
-        value: '0',
-        pict: {
-          succ: '../img/yes.png',
-          err: '../img/no.png'
-        }
-      },
-      reviews: 84, // процент положительных отзывов
-      amount: 118
+      inStock: 0, // кол-во едениц товара в наличии
+      reviews: 84 // процент положительных отзывов
     }
   },
   {
     id: 3,
     category: 'mac',
-    imgUrl: '../img/image5.png',
+    imgUrl: 'items/macbook-pro13.png',
     name: 'MacBook Pro 13',
     display: 13.3, // дюймы
     color: ['Silver', 'Space Grey'],
@@ -124,21 +110,14 @@ const ITEMS = [
     os: 'macOS',
     InTheBox: ['MacBook pro 13', '61W USB-C Power Adapter', 'USB-C Charge Cable (2 m)'],
     orderInfo: {
-      inStock: {
-        value: '25',
-        pict: {
-          succ: '../img/yes.png',
-          err: '../img/no.png'
-        }
-      },
-      reviews: 85, // процент положительных отзывов
-      amount: 515
+      inStock: 25, // кол-во едениц товара в наличии
+      reviews: 85 // процент положительных отзывов
     }
   },
   {
     id: 4,
     category: 'mac',
-    imgUrl: '../img/image5.png',
+    imgUrl: 'items/macbook-pro13.png',
     name: 'MacBook Pro 13',
     display: 13.3, // дюймы
     color: ['Silver', 'Space Grey'],
@@ -170,21 +149,14 @@ const ITEMS = [
     os: 'macOS',
     InTheBox: ['MacBook pro 13', '61W USB-C Power Adapter', 'USB-C Charge Cable (2 m)'],
     orderInfo: {
-      inStock: {
-        value: '256',
-        pict: {
-          succ: '../img/yes.png',
-          err: '../img/no.png'
-        }
-      },
-      reviews: 80, // процент положительных отзывов
-      amount: 392
+      inStock: 256, // кол-во едениц товара в наличии
+      reviews: 80 // процент положительных отзывов
     }
   },
   {
     id: 5,
     category: 'mac',
-    imgUrl: '../img/macbook-pro16-2.png',
+    imgUrl: 'items/macbook-pro16.png',
     name: 'MacBook Pro 16',
     display: 16, // дюймы
     color: ['Silver', 'Space Grey'],
@@ -216,21 +188,14 @@ const ITEMS = [
     os: 'macOS',
     InTheBox: ['MacBook pro 16', '96W USB-C Power Adapter', 'USB-C Charge Cable (2 m)'],
     orderInfo: {
-      inStock: {
-        value: '124',
-        pict: {
-          succ: '../img/yes.png',
-          err: '../img/no.png'
-        }
-      },
-      reviews: 91, // процент положительных отзывов
-      amount: 401
+      inStock: 124, // кол-во едениц товара в наличии
+      reviews: 91 // процент положительных отзывов
     }
   },
   {
     id: 6,
     category: 'mac',
-    imgUrl: '../img/macbook-pro16-2.png',
+    imgUrl: 'items/macbook-pro16.png',
     name: 'MacBook Pro 16',
     display: 16, // дюймы
     color: ['Silver', 'Space Grey'],
@@ -262,21 +227,14 @@ const ITEMS = [
     os: 'macOS',
     InTheBox: ['MacBook pro 16', '96W USB-C Power Adapter', 'USB-C Charge Cable (2 m)'],
     orderInfo: {
-      inStock: {
-        value: '69',
-        pict: {
-          succ: '../img/yes.png',
-          err: '../img/no.png'
-        }
-      },
-      reviews: 90, // процент положительных отзывов
-      amount: 651
+      inStock: 69, // кол-во едениц товара в наличии
+      reviews: 90 // процент положительных отзывов
     }
   },
   {
     id: 7,
     category: 'mac',
-    imgUrl: '../img/imac-2.png',
+    imgUrl: 'items/imac.png',
     name: 'IMac',
     display: 21.5, // дюймы
     color: ['Space Grey'],
@@ -314,21 +272,14 @@ const ITEMS = [
       'Polishing cloth'
     ],
     orderInfo: {
-      inStock: {
-        value: '742',
-        pict: {
-          succ: '../img/yes.png',
-          err: '../img/no.png'
-        }
-      },
-      reviews: 75, // процент положительных отзывов
-      amount: 119
+      inStock: 742, // кол-во едениц товара в наличии
+      reviews: 75 // процент положительных отзывов
     }
   },
   {
     id: 8,
     category: 'mac',
-    imgUrl: '../img/imac-2.png',
+    imgUrl: 'items/imac.png',
     name: 'IMac',
     display: 27, // дюймы
     color: ['Space Grey'],
@@ -366,21 +317,14 @@ const ITEMS = [
       'Polishing cloth'
     ],
     orderInfo: {
-      inStock: {
-        value: '0',
-        pict: {
-          succ: '../img/yes.png',
-          err: '../img/no.png'
-        }
-      },
-      reviews: 99, // процент положительных отзывов
-      amount: 431
+      inStock: 0, // кол-во едениц товара в наличии
+      reviews: 99 // процент положительных отзывов
     }
   },
   {
     id: 9,
     category: 'mac',
-    imgUrl: '../img/mac-pro-2.png',
+    imgUrl: 'items/mac_pro.png',
     name: 'Mac Pro',
     display: null, // дюймы
     color: ['Space Grey'],
@@ -417,21 +361,14 @@ const ITEMS = [
       'Power cord (2 m)'
     ],
     orderInfo: {
-      inStock: {
-        value: '587',
-        pict: {
-          succ: '../img/yes.png',
-          err: '../img/no.png'
-        }
-      },
-      reviews: 56, // процент положительных отзывов
-      amount: 234
+      inStock: 587, // кол-во едениц товара в наличии
+      reviews: 56 // процент положительных отзывов
     }
   },
   {
     id: 10,
     category: 'ipad',
-    imgUrl: '../img/compare-ipad-pro.png',
+    imgUrl: 'items/ipad-pro.jpeg',
     name: 'IPad Pro ',
     display: 11, // дюймы
     color: ['Silver', 'Space Grey'],
@@ -463,21 +400,14 @@ const ITEMS = [
     os: 'macOS',
     InTheBox: ['iPad Pro', 'USB-C Charge Cable (1 meter)', '18W USB-C Power Adapter'],
     orderInfo: {
-      inStock: {
-        value: '32',
-        pict: {
-          succ: '../img/yes.png',
-          err: '../img/no.png'
-        }
-      },
-      reviews: 99, // процент положительных отзывов
-      amount: 285
+      inStock: 32, // кол-во едениц товара в наличии
+      reviews: 99 // процент положительных отзывов
     }
   },
   {
     id: 34,
     category: 'ipad',
-    imgUrl: '../img/ipad-air-2.png',
+    imgUrl: 'items/ipad-air.png',
     name: 'IPad Air',
     display: 10.9, // дюймы
     color: ['Silver', 'Space Grey', 'Rose Gold', 'Green', 'Sky Blue'],
@@ -508,21 +438,14 @@ const ITEMS = [
     os: 'macOS',
     InTheBox: ['iPad Air', 'USB-C Charge Cable (1 meter)', '20W USB-C Power Adapter'],
     orderInfo: {
-      inStock: {
-        value: '97',
-        pict: {
-          succ: '../img/yes.png',
-          err: '../img/no.png'
-        }
-      },
-      reviews: 97, // процент положительных отзывов
-      amount: 185
+      inStock: 97, // кол-во едениц товара в наличии
+      reviews: 97 // процент положительных отзывов
     }
   },
   {
     id: 11,
     category: 'ipad',
-    imgUrl: '../img/ipad-2.png',
+    imgUrl: 'items/ipad.png',
     name: 'IPad',
     display: 10.2, // дюймы
     color: ['Silver', 'Space Grey', 'Gold'],
@@ -553,21 +476,14 @@ const ITEMS = [
     os: 'macOS',
     InTheBox: ['iPad', 'USB-C Power Adapter', 'Lightning to USB-C Cable'],
     orderInfo: {
-      inStock: {
-        value: '90',
-        pict: {
-          succ: '../img/yes.png',
-          err: '../img/no.png'
-        }
-      },
-      reviews: 0, // процент положительных отзывов
-      amount: 843
+      inStock: 90, // кол-во едениц товара в наличии
+      reviews: 0 // процент положительных отзывов
     }
   },
   {
     id: 12,
     category: 'ipad',
-    imgUrl: '../img/compare-ipad-mini.png',
+    imgUrl: 'items/ipad-mini.png',
     name: 'IPad mini',
     display: 7.9, // дюймы
     color: ['Silver', 'Space Grey', 'Gold'],
@@ -598,21 +514,14 @@ const ITEMS = [
     os: 'macOS',
     InTheBox: ['iPad mini', 'USB-C Power Adapter', 'Lightning to USB-C Cable'],
     orderInfo: {
-      inStock: {
-        value: '77',
-        pict: {
-          succ: '../img/yes.png',
-          err: '../img/no.png'
-        }
-      },
-      reviews: 85, // процент положительных отзывов
-      amount: 324
+      inStock: 77, // кол-во едениц товара в наличии
+      reviews: 85 // процент положительных отзывов
     }
   },
   {
     id: 13,
     category: 'Watch',
-    imgUrl: '../img/apple-watch-series-6-2.png',
+    imgUrl: 'items/apple-watch-series-6.png',
     name: 'Apple Watch Series 6',
     display: 1.73228, // дюймы
     color: ['Silver', 'Space Grey', 'Gold', 'Blue', 'Graphite'],
@@ -643,21 +552,14 @@ const ITEMS = [
     os: 'macOS',
     InTheBox: ['Case', 'Solo Loop', '1m Magnetic Charging Cable'],
     orderInfo: {
-      inStock: {
-        value: '90',
-        pict: {
-          succ: '../img/yes.png',
-          err: '../img/no.png'
-        }
-      },
-      reviews: 458, // процент положительных отзывов
-      amount: 179
+      inStock: 90, // кол-во едениц товара в наличии
+      reviews: 458 // процент положительных отзывов
     }
   },
   {
     id: 14,
     category: 'Watch',
-    imgUrl: '../img/apple-watch-se.png',
+    imgUrl: 'items/apple-watch-se.jpg',
     name: 'Apple Watch Series SE',
     display: 1.73228, // дюймы
     color: ['Silver', 'Space Grey', 'Gold', 'Blue', 'Graphite'],
@@ -692,21 +594,14 @@ const ITEMS = [
       '1m Magnetic Charging Cable'
     ],
     orderInfo: {
-      inStock: {
-        value: '79',
-        pict: {
-          succ: '../img/yes.png',
-          err: '../img/no.png'
-        }
-      },
-      reviews: 69, // процент положительных отзывов
-      amount: 284
+      inStock: 79, // кол-во едениц товара в наличии
+      reviews: 69 // процент положительных отзывов
     }
   },
   {
     id: 15,
     category: 'Watch',
-    imgUrl: '../img/apple-watch3.png',
+    imgUrl: 'items/apple-watch3.jpg',
     name: 'Apple Watch Series 3',
     display: 22.1654, // дюймы
     color: ['Silver', 'Space Grey', 'Gold', 'Blue', 'Graphite'],
@@ -741,21 +636,14 @@ const ITEMS = [
       '1m Magnetic Charging Cable'
     ],
     orderInfo: {
-      inStock: {
-        value: '47',
-        pict: {
-          succ: '../img/yes.png',
-          err: '../img/no.png'
-        }
-      },
-      reviews: 93, // процент положительных отзывов
-      amount: 165
+      inStock: 47, // кол-во едениц товара в наличии
+      reviews: 93 // процент положительных отзывов
     }
   },
   {
     id: 16,
     category: 'iphone',
-    imgUrl: '../img/iphone-12-2.png',
+    imgUrl: 'items/iphone_12.jpg',
     name: 'IPhone 12',
     display: 6.1, // дюймы
     color: ['Black', 'White', 'Green', 'Blue', 'Red'],
@@ -786,21 +674,14 @@ const ITEMS = [
     os: 'IOS',
     InTheBox: ['iPhone with iOS 14', 'USB-C to Lightning Cable', 'Documentation'],
     orderInfo: {
-      inStock: {
-        value: '73',
-        pict: {
-          succ: '../img/yes.png',
-          err: '../img/no.png'
-        }
-      },
-      reviews: 12, // процент положительных отзывов
-      amount: 594
+      inStock: 73, // кол-во едениц товара в наличии
+      reviews: 12 // процент положительных отзывов
     }
   },
   {
     id: 17,
     category: 'iphone',
-    imgUrl: '../img/iphone-12-2.png',
+    imgUrl: 'items/iphone_12.jpg',
     name: 'IPhone 12',
     display: 6.1, // дюймы
     color: ['Black', 'White', 'Green', 'Blue', 'Red'],
@@ -831,21 +712,14 @@ const ITEMS = [
     os: 'IOS',
     InTheBox: ['iPhone with iOS 14', 'USB-C to Lightning Cable', 'Documentation'],
     orderInfo: {
-      inStock: {
-        value: '0',
-        pict: {
-          succ: '../img/yes.png',
-          err: '../img/no.png'
-        }
-      },
-      reviews: 73, // процент положительных отзывов
-      amount: 876
+      inStock: 0, // кол-во едениц товара в наличии
+      reviews: 73 // процент положительных отзывов
     }
   },
   {
     id: 18,
     category: 'iphone',
-    imgUrl: '../img/iphone-12-2.png',
+    imgUrl: 'items/iphone_12.jpg',
     name: 'IPhone 12 Mini',
     display: 5.4, // дюймы
     color: ['Black', 'White', 'Green', 'Blue', 'Red'],
@@ -876,21 +750,14 @@ const ITEMS = [
     os: 'IOS',
     InTheBox: ['iPhone with iOS 14', 'USB-C to Lightning Cable', 'Documentation'],
     orderInfo: {
-      inStock: {
-        value: '43',
-        pict: {
-          succ: '../img/yes.png',
-          err: '../img/no.png'
-        }
-      },
-      reviews: 100, // процент положительных отзывов
-      amount: 187
+      inStock: 43, // кол-во едениц товара в наличии
+      reviews: 100 // процент положительных отзывов
     }
   },
   {
     id: 19,
     category: 'iphone',
-    imgUrl: '../img/iphone-12-pro-2.png',
+    imgUrl: 'items/iphone-12-pro.jpeg',
     name: 'IPhone 12 Pro',
     display: 6.1, // дюймы
     color: ['Silver', 'Graphite', 'Gold', 'Pacific Blue'],
@@ -921,21 +788,14 @@ const ITEMS = [
     os: 'IOS',
     InTheBox: ['iPhone with iOS 14', 'USB-C to Lightning Cable', 'Documentation'],
     orderInfo: {
-      inStock: {
-        value: '74',
-        pict: {
-          succ: '../img/yes.png',
-          err: '../img/no.png'
-        }
-      },
-      reviews: 99, // процент положительных отзывов
-      amount: 348
+      inStock: 84, // кол-во едениц товара в наличии
+      reviews: 99 // процент положительных отзывов
     }
   },
   {
     id: 20,
     category: 'iphone',
-    imgUrl: '../img/iphone-12-pro-2.png',
+    imgUrl: 'items/iphone-12-pro.jpeg',
     name: 'IPhone 12 Pro',
     display: 6.1, // дюймы
     color: ['Silver', 'Graphite', 'Gold', 'Pacific Blue'],
@@ -966,21 +826,14 @@ const ITEMS = [
     os: 'IOS',
     InTheBox: ['iPhone with iOS 14', 'USB-C to Lightning Cable', 'Documentation'],
     orderInfo: {
-      inStock: {
-        value: '2',
-        pict: {
-          succ: '../img/yes.png',
-          err: '../img/no.png'
-        }
-      },
-      reviews: 99, // процент положительных отзывов
-      amount: 456
+      inStock: 2, // кол-во едениц товара в наличии
+      reviews: 99 // процент положительных отзывов
     }
   },
   {
     id: 21,
     category: 'iphone',
-    imgUrl: '../img/iphone-12-pro-2.png',
+    imgUrl: 'items/iphone-12-pro.jpeg',
     name: 'IPhone 12 Pro Max',
     display: 6.7, // дюймы
     color: ['Silver', 'Graphite', 'Gold', 'Pacific Blue'],
@@ -1011,15 +864,461 @@ const ITEMS = [
     os: 'IOS',
     InTheBox: ['iPhone with iOS 14', 'USB-C to Lightning Cable', 'Documentation'],
     orderInfo: {
-      inStock: {
-        value: '5',
-        pict: {
-          succ: '../img/yes.png',
-          err: '../img/no.png'
-        }
-      },
-      reviews: 100, // процент положительных отзывов
-      amount: 654
+      inStock: 5, // кол-во едениц товара в наличии
+      reviews: 100 // процент положительных отзывов
+    }
+  },
+  {
+    id: 22,
+    category: 'iphone',
+    imgUrl: 'items/iphone-se.jpeg',
+    name: 'IPhone SE',
+    display: 4.7, // дюймы
+    color: ['Black', 'White', 'Red'],
+    price: 1099, // доллары
+    chip: {
+      name: 'A13',
+      cores: null
+    },
+    ram: null, // Гб
+    storage: 128, // Гб
+    touchId: false,
+    faceId: true,
+    wireless: ['Wi-Fi', 'Bluetooth 5.0', '5G GSM/EDGE'],
+    camera: {
+      front: '720p FaceTime HD camera',
+      back: '12MP Wide camera'
+    },
+    audio: {
+      microphone: 'Three-mic array with directional beamforming',
+      speakers: 'Stereo speakers'
+    },
+    size: {
+      height: '13.8', // cm
+      width: '7.7', // cm
+      depth: '0.7', // cm
+      weight: '0.148' // Кг
+    },
+    os: 'IOS',
+    InTheBox: ['iPhone with iOS 14', 'USB-C to Lightning Cable', 'Documentation'],
+    orderInfo: {
+      inStock: 81, // кол-во едениц товара в наличии
+      reviews: 73 // процент положительных отзывов
+    }
+  },
+  {
+    id: 23,
+    category: 'iphone',
+    imgUrl: 'items/iphone11.jpeg',
+    name: 'IPhone 11',
+    display: 6.1, // дюймы
+    color: ['Black', 'Green', 'Yellow', 'Purple', 'White', 'Red'],
+    price: 899, // доллары
+    chip: {
+      name: 'A13',
+      cores: null
+    },
+    ram: null, // Гб
+    storage: 256, // Гб
+    touchId: false,
+    faceId: true,
+    wireless: ['Wi-Fi', 'Bluetooth 5.0', '5G GSM/EDGE'],
+    camera: {
+      front: '720p FaceTime HD camera',
+      back: 'Dual 12MP Ultra Wide and Wide cameras'
+    },
+    audio: {
+      microphone: 'Three-mic array with directional beamforming',
+      speakers: 'Stereo speakers'
+    },
+    size: {
+      height: '15.0', // cm
+      width: '7.5', // cm
+      depth: '0.8', // cm
+      weight: '0.194' // Кг
+    },
+    os: 'IOS',
+    InTheBox: ['iPhone with iOS 14', 'USB-C to Lightning Cable', 'Documentation'],
+    orderInfo: {
+      inStock: 98, // кол-во едениц товара в наличии
+      reviews: 100 // процент положительных отзывов
+    }
+  },
+  {
+    id: 24,
+    category: 'iphone',
+    imgUrl: 'items/iphone11.jpeg',
+    name: 'IPhone 11',
+    display: 6.1, // дюймы
+    color: ['Black', 'Green', 'Yellow', 'Purple', 'White', 'Red'],
+    price: 999, // доллары
+    chip: {
+      name: 'A13',
+      cores: null
+    },
+    ram: null, // Гб
+    storage: 512, // Гб
+    touchId: false,
+    faceId: true,
+    wireless: ['Wi-Fi', 'Bluetooth 5.0', '5G GSM/EDGE'],
+    camera: {
+      front: '720p FaceTime HD camera',
+      back: 'Triple 12MP Ultra Wide and Wide cameras'
+    },
+    audio: {
+      microphone: 'Three-mic array with directional beamforming',
+      speakers: 'Stereo speakers'
+    },
+    size: {
+      height: '15.0', // cm
+      width: '7.5', // cm
+      depth: '0.8', // cm
+      weight: '0.194' // Кг
+    },
+    os: 'IOS',
+    InTheBox: ['iPhone with iOS 14', 'USB-C to Lightning Cable', 'Documentation'],
+    orderInfo: {
+      inStock: 115, // кол-во едениц товара в наличии
+      reviews: 100 // процент положительных отзывов
+    }
+  },
+  {
+    id: 25,
+    category: 'iphone',
+    imgUrl: 'items/iphone11.jpeg',
+    name: 'IPhone 11',
+    display: 6.1, // дюймы
+    color: ['Black', 'Green', 'Yellow', 'Purple', 'White', 'Red'],
+    price: 899, // доллары
+    chip: {
+      name: 'A13',
+      cores: null
+    },
+    ram: null, // Гб
+    storage: 256, // Гб
+    touchId: false,
+    faceId: true,
+    wireless: ['Wi-Fi', 'Bluetooth 5.0', '5G GSM/EDGE'],
+    camera: {
+      front: '720p FaceTime HD camera',
+      back: 'Triple 12MP Ultra Wide and Wide cameras'
+    },
+    audio: {
+      microphone: 'Three-mic array with directional beamforming',
+      speakers: 'Stereo speakers'
+    },
+    size: {
+      height: '15.0', // cm
+      width: '7.5', // cm
+      depth: '0.8', // cm
+      weight: '0.194' // Кг
+    },
+    os: 'IOS',
+    InTheBox: ['iPhone with iOS 14', 'USB-C to Lightning Cable', 'Documentation'],
+    orderInfo: {
+      inStock: 0, // кол-во едениц товара в наличии
+      reviews: 100 // процент положительных отзывов
+    }
+  },
+  {
+    id: 26,
+    category: 'iphone',
+    imgUrl: 'items/iphone-xr.jpg',
+    name: 'IPhone XR',
+    display: 6.1, // дюймы
+    color: ['Black', 'Coral', 'Yellow', 'Blue', 'White', 'Red'],
+    price: 699, // доллары
+    chip: {
+      name: 'A12',
+      cores: null
+    },
+    ram: null, // Гб
+    storage: 64, // Гб
+    touchId: false,
+    faceId: true,
+    wireless: ['Wi-Fi', 'Bluetooth 5.0', 'FDD‑LTE GSM/EDGE'],
+    camera: {
+      front: '720p FaceTime HD camera',
+      back: '12MP Wide camera'
+    },
+    audio: {
+      microphone: 'Three-mic array with directional beamforming',
+      speakers: 'Stereo speakers'
+    },
+    size: {
+      height: '15.0', // cm
+      width: '7.5', // cm
+      depth: '0.8', // cm
+      weight: '0.194' // Кг
+    },
+    os: 'IOS',
+    InTheBox: ['iPhone with iOS 14', 'USB-C to Lightning Cable', 'Documentation'],
+    orderInfo: {
+      inStock: 23, // кол-во едениц товара в наличии
+      reviews: 86 // процент положительных отзывов
+    }
+  },
+  {
+    id: 27,
+    category: 'iphone',
+    imgUrl: 'items/iphone-xs.jpg',
+    name: 'IPhone XS',
+    display: 5.8, // дюймы
+    color: ['White', 'Rose Gold', 'Space Grey'],
+    price: 699, // доллары
+    chip: {
+      name: 'A12',
+      cores: null
+    },
+    ram: null, // Гб
+    storage: 128, // Гб
+    touchId: false,
+    faceId: true,
+    wireless: ['Wi-Fi', 'Bluetooth 5.0', 'FDD‑LTE GSM/EDGE'],
+    camera: {
+      front: '720p FaceTime HD camera',
+      back: '12MP Wide camera'
+    },
+    audio: {
+      microphone: 'Three-mic array with directional beamforming',
+      speakers: 'Stereo speakers'
+    },
+    size: {
+      height: '14.3', // cm
+      width: '7.0', // cm
+      depth: '0.7', // cm
+      weight: '0.177' // Кг
+    },
+    os: 'IOS',
+    InTheBox: ['iPhone with iOS 12', 'USB-A to Lightning Cable', 'Documentation'],
+    orderInfo: {
+      inStock: 34, // кол-во едениц товара в наличии
+      reviews: 94 // процент положительных отзывов
+    }
+  },
+  {
+    id: 28,
+    category: 'iphone',
+    imgUrl: 'items/iphone-xs.jpg',
+    name: 'IPhone XS',
+    display: 5.8, // дюймы
+    color: ['White', 'Rose Gold', 'Space Grey'],
+    price: 799, // доллары
+    chip: {
+      name: 'A12',
+      cores: null
+    },
+    ram: null, // Гб
+    storage: 256, // Гб
+    touchId: false,
+    faceId: true,
+    wireless: ['Wi-Fi', 'Bluetooth 5.0', 'FDD‑LTE GSM/EDGE'],
+    camera: {
+      front: '720p FaceTime HD camera',
+      back: '12MP Wide camera'
+    },
+    audio: {
+      microphone: 'Three-mic array with directional beamforming',
+      speakers: 'Stereo speakers'
+    },
+    size: {
+      height: '14.3', // cm
+      width: '7.0', // cm
+      depth: '0.7', // cm
+      weight: '0.177' // Кг
+    },
+    os: 'IOS',
+    InTheBox: ['iPhone with iOS 12', 'USB-A to Lightning Cable', 'Documentation'],
+    orderInfo: {
+      inStock: 0, // кол-во едениц товара в наличии
+      reviews: 94 // процент положительных отзывов
+    }
+  },
+  {
+    id: 29,
+    category: 'tv',
+    imgUrl: 'items/apple-tv.jpeg',
+    name: 'Apple TV 4K',
+    display: null, // дюймы
+    color: ['Black'],
+    price: 179, // доллары
+    chip: {
+      name: 'A10X',
+      cores: null
+    },
+    ram: null, // Гб
+    storage: 32, // Гб
+    touchId: false,
+    faceId: false,
+    wireless: ['Wi-Fi', 'Bluetooth 5.0'],
+    camera: null,
+    audio: null,
+    size: {
+      height: '3.5', // cm
+      width: '9.8', // cm
+      depth: '3.5', // cm
+      weight: '0.425' // Кг
+    },
+    os: 'tvOS',
+    InTheBox: [
+      'Apple TV 4K',
+      'Siri Remote',
+      'Power cord',
+      'Lightning to USB cable',
+      'Documentation'
+    ],
+    orderInfo: {
+      inStock: 2, // кол-во едениц товара в наличии
+      reviews: 99 // процент положительных отзывов
+    }
+  },
+  {
+    id: 30,
+    category: 'tv',
+    imgUrl: 'items/apple-tv.jpeg',
+    name: 'Apple TV 4K',
+    display: null, // дюймы
+    color: ['Black'],
+    price: 199, // доллары
+    chip: {
+      name: 'A10X',
+      cores: null
+    },
+    ram: null, // Гб
+    storage: 64, // Гб
+    touchId: false,
+    faceId: false,
+    wireless: ['Wi-Fi', 'Bluetooth 5.0'],
+    camera: null,
+    audio: null,
+    size: {
+      height: '3.5', // cm
+      width: '9.8', // cm
+      depth: '3.5', // cm
+      weight: '0.425' // Кг
+    },
+    os: 'tvOS',
+    InTheBox: [
+      'Apple TV 4K',
+      'Siri Remote',
+      'Power cord',
+      'Lightning to USB cable',
+      'Documentation'
+    ],
+    orderInfo: {
+      inStock: 1, // кол-во едениц товара в наличии
+      reviews: 100 // процент положительных отзывов
+    }
+  },
+  {
+    id: 31,
+    category: 'airpods',
+    imgUrl: 'items/airpods.jpg',
+    name: 'AirPods',
+    display: null, // дюймы
+    color: ['White'],
+    price: 199, // доллары
+    chip: {
+      name: 'H!',
+      cores: null
+    },
+    ram: null, // Гб
+    storage: null, // Гб
+    touchId: false,
+    faceId: false,
+    wireless: ['Bluetooth 5.0'],
+    camera: null,
+    audio: {
+      microphone: 'Three-mic array with directional beamforming',
+      speakers: 'Stereo speakers'
+    },
+    size: {
+      height: '5.3', // cm
+      width: '4.4', // cm
+      depth: '0.2', // cm
+      weight: '0.04' // Кг
+    },
+    os: null,
+    InTheBox: ['AirPods', 'Wireless Charging Case', 'Lightning to USB-A Cable', 'Documentation'],
+    orderInfo: {
+      inStock: 23, // кол-во едениц товара в наличии
+      reviews: 100 // процент положительных отзывов
+    }
+  },
+  {
+    id: 32,
+    category: 'airpods',
+    imgUrl: 'items/airpods_pro.jpg',
+    name: 'AirPods Pro',
+    display: null, // дюймы
+    color: ['White'],
+    price: 299, // доллары
+    chip: {
+      name: 'H!',
+      cores: null
+    },
+    ram: null, // Гб
+    storage: null, // Гб
+    touchId: false,
+    faceId: false,
+    wireless: ['Bluetooth 5.0'],
+    camera: null,
+    audio: {
+      microphone: 'Three-mic array with directional beamforming',
+      speakers: 'Stereo speakers'
+    },
+    size: {
+      height: '4.5', // cm
+      width: '6.0', // cm
+      depth: '0.21', // cm
+      weight: '0.04' // Кг
+    },
+    os: null,
+    InTheBox: [
+      'AirPods Pro',
+      'Wireless Charging Case',
+      'Lightning to USB-C Cable',
+      'Documentation',
+      'Silicone ear tips (three sizes)'
+    ],
+    orderInfo: {
+      inStock: 29, // кол-во едениц товара в наличии
+      reviews: 94 // процент положительных отзывов
+    }
+  },
+  {
+    id: 33,
+    category: 'airpods',
+    imgUrl: 'items/airpods-max.jpg',
+    name: 'AirPods Max',
+    display: null, // дюймы
+    color: ['White'],
+    price: 599, // доллары
+    chip: {
+      name: 'H!',
+      cores: null
+    },
+    ram: null, // Гб
+    storage: null, // Гб
+    touchId: false,
+    faceId: false,
+    wireless: ['Bluetooth 5.0'],
+    camera: null,
+    audio: {
+      microphone: 'Three-mic array with directional beamforming',
+      speakers: 'Stereo speakers'
+    },
+    size: {
+      height: '18.7', // cm
+      width: '16.8', // cm
+      depth: '8.3', // cm
+      weight: '0.38' // Кг
+    },
+    os: null,
+    InTheBox: ['AirPods MAx', 'Smart Case', 'Lightning to USB-C Cable', 'Documentation'],
+    orderInfo: {
+      inStock: 0, // кол-во едениц товара в наличии
+      reviews: 5 // процент положительных отзывов
     }
   }
 ];

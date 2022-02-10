@@ -1,0 +1,21 @@
+.content {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.item {
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 10px;
+  background-color: beige;
+  width: 200px;
+}
+
+.item.item--IOS {
+  background-color: rgb(210, 164, 234);
+}
+
+.item.item--macOS {
+  background-color: rgb(164, 189, 234);
+}

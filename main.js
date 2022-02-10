@@ -1,7 +1,7 @@
 import ITEMS from './items.js';
 
 const createItemHTML = (item) => {
-  return `<div>${item.name} - os: ${item.os}</div>`;
+  return `<div class="item item--${item.os}"><b>${item.name}</b> - os: <i>${item.os}</i></div>`;
 };
 
 const generatePageContent = (items) => {
@@ -26,21 +26,16 @@ const filterItems = () => {
 
   const filteredItems = ITEMS.filter((item) => {
     // true | false
-    let result = true;
 
-    if (valueName) {
-      result = item.name.toLowerCase().includes(valueName);
+    if (valueName && !item.name.toLowerCase().includes(valueName)) {
+      return false;
     }
 
-    if (valueIOS) {
-      result = item.os === valueIOS;
+    if (valueIOS && item.os !== valueIOS) {
+      return false;
     }
 
-    if (valueMacOS) {
-      result = item.os === valueMacOS;
-    }
-
-    return result;
+    return true;
   });
 
   return filteredItems;
